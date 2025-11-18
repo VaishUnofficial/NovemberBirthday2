@@ -1,0 +1,130 @@
+[33mcommit 37ef57edc4ee5e7e536ffee1670108ad2d0118eb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: VaishnaviP-06 <vaishnavi.pradhan.2006@gmail.com>
+Date:   Tue Nov 18 13:43:43 2025 +0530
+
+    first commit
+
+ .gitignore | Bin [31m52[m -> [32m48[m bytes
+ README.md  | Bin [31m18[m -> [32m44[m bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit e4da4c932f74b67e5f544f57df26dc48cc784e2d[m
+Author: VaishnaviP-06 <vaishnavi.pradhan.2006@gmail.com>
+Date:   Tue Nov 18 13:41:17 2025 +0530
+
+    Add gitignore
+
+ .gitignore | Bin [31m124[m -> [32m52[m bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit 3954a51f81d6d64ce48a5f2e8112a96a6a9d6b9b[m
+Author: VaishnaviP-06 <vaishnavi.pradhan.2006@gmail.com>
+Date:   Tue Nov 18 13:40:42 2025 +0530
+
+    Initial commit
+
+ .gitignore                                         |   Bin [31m0[m -> [32m124[m bytes
+ .next/dev/build-manifest.json                      |    49 [32m+[m
+ .../chunks/[root-of-the-server]__51225daf._.js     |   206 [32m+[m
+ .../chunks/[root-of-the-server]__51225daf._.js.map |     8 [32m+[m
+ .../chunks/[root-of-the-server]__974941ed._.js     |   508 [32m+[m
+ .../chunks/[root-of-the-server]__974941ed._.js.map |    11 [32m+[m
+ ...opack-node]_transforms_postcss_ts_7180740f._.js |    13 [32m+[m
+ ...k-node]_transforms_postcss_ts_7180740f._.js.map |     5 [32m+[m
+ ...opack-node]_transforms_postcss_ts_eef12914._.js |    13 [32m+[m
+ ...k-node]_transforms_postcss_ts_eef12914._.js.map |     5 [32m+[m
+ .next/dev/build/chunks/[turbopack]_runtime.js      |   770 [32m+[m
+ .next/dev/build/chunks/[turbopack]_runtime.js.map  |    10 [32m+[m
+ .next/dev/build/chunks/node_modules_6ab7cea2._.js  |  6751 [32m++++[m
+ .../build/chunks/node_modules_6ab7cea2._.js.map    |    46 [32m+[m
+ .next/dev/build/chunks/node_modules_fe693df6._.js  |  6783 [32m++++[m
+ .../build/chunks/node_modules_fe693df6._.js.map    |    47 [32m+[m
+ .next/dev/build/package.json                       |     1 [32m+[m
+ .next/dev/build/postcss.js                         |     6 [32m+[m
+ .next/dev/build/postcss.js.map                     |     5 [32m+[m
+ .next/dev/cache/.rscinfo                           |     1 [32m+[m
+ .next/dev/cache/next-devtools-config.json          |     1 [32m+[m
+ .next/dev/fallback-build-manifest.json             |    37 [32m+[m
+ .next/dev/logs/next-development.log                | 37944 [32m+++++++++++++++++++[m
+ .next/dev/package.json                             |     3 [32m+[m
+ .next/dev/prerender-manifest.json                  |    11 [32m+[m
+ .next/dev/routes-manifest.json                     |     1 [32m+[m
+ .next/dev/server/app-paths-manifest.json           |     3 [32m+[m
+ .next/dev/server/app/_not-found/page.js            |    11 [32m+[m
+ .next/dev/server/app/_not-found/page.js.map        |     5 [32m+[m
+ .../app/_not-found/page/app-paths-manifest.json    |     3 [32m+[m
+ .../server/app/_not-found/page/build-manifest.json |    22 [32m+[m
+ .../app/_not-found/page/next-font-manifest.json    |    11 [32m+[m
+ .../_not-found/page/react-loadable-manifest.json   |     1 [32m+[m
+ .../_not-found/page/server-reference-manifest.json |     4 [32m+[m
+ .../_not-found/page_client-reference-manifest.js   |     2 [32m+[m
+ .next/dev/server/app/page.js                       |    13 [32m+[m
+ .next/dev/server/app/page.js.map                   |     5 [32m+[m
+ .next/dev/server/app/page/app-paths-manifest.json  |     3 [32m+[m
+ .next/dev/server/app/page/build-manifest.json      |    21 [32m+[m
+ .next/dev/server/app/page/next-font-manifest.json  |    11 [32m+[m
+ .../server/app/page/react-loadable-manifest.json   |     1 [32m+[m
+ .../server/app/page/server-reference-manifest.json |     4 [32m+[m
+ .../server/app/page_client-reference-manifest.js   |     2 [32m+[m
+ ...ared_lib_no-fallback-error_external_59b92b38.js |     8 [32m+[m
+ ..._lib_no-fallback-error_external_59b92b38.js.map |     5 [32m+[m
+ .../chunks/ssr/[root-of-the-server]__1aaf5479._.js |    38 [32m+[m
+ .../ssr/[root-of-the-server]__1aaf5479._.js.map    |     5 [32m+[m
+ .../chunks/ssr/[root-of-the-server]__3bea86c2._.js |  2460 [32m++[m
+ .../ssr/[root-of-the-server]__3bea86c2._.js.map    |    39 [32m+[m
+ .../chunks/ssr/[root-of-the-server]__74068a34._.js |  2429 [32m++[m
+ .../ssr/[root-of-the-server]__74068a34._.js.map    |    38 [32m+[m
+ .../chunks/ssr/[root-of-the-server]__7d54cc10._.js |    12 [32m+[m
+ .../ssr/[root-of-the-server]__7d54cc10._.js.map    |     5 [32m+[m
+ .../chunks/ssr/[root-of-the-server]__7f148858._.js |    62 [32m+[m
+ .../ssr/[root-of-the-server]__7f148858._.js.map    |     5 [32m+[m
+ .../chunks/ssr/[root-of-the-server]__8cc58a2a._.js |   164 [32m+[m
+ .../ssr/[root-of-the-server]__8cc58a2a._.js.map    |    14 [32m+[m
+ .../chunks/ssr/[root-of-the-server]__916c9a58._.js |   279 [32m+[m
+ .../ssr/[root-of-the-server]__916c9a58._.js.map    |     8 [32m+[m
+ .../chunks/ssr/[root-of-the-server]__95719760._.js |    54 [32m+[m
+ .../ssr/[root-of-the-server]__95719760._.js.map    |     8 [32m+[m
+ .../chunks/ssr/[root-of-the-server]__c5a53864._.js |    38 [32m+[m
+ .../ssr/[root-of-the-server]__c5a53864._.js.map    |     5 [32m+[m
+ .../chunks/ssr/[root-of-the-server]__e6a4d965._.js |    32 [32m+[m
+ .../ssr/[root-of-the-server]__e6a4d965._.js.map    |     5 [32m+[m
+ .next/dev/server/chunks/ssr/[turbopack]_runtime.js |   770 [32m+[m
+ .../server/chunks/ssr/[turbopack]_runtime.js.map   |    10 [32m+[m
+ .next/dev/server/chunks/ssr/_8fbbfca6._.js         |   505 [32m+[m
+ .next/dev/server/chunks/ssr/_8fbbfca6._.js.map     |     7 [32m+[m
+ ..._server_app__not-found_page_actions_554ec2bf.js |     7 [32m+[m
+ ...ver_app__not-found_page_actions_554ec2bf.js.map |     6 [32m+[m
+ ...xt-internal_server_app_page_actions_39d4fc33.js |     7 [32m+[m
+ ...nternal_server_app_page_actions_39d4fc33.js.map |     6 [32m+[m
+ .../server/chunks/ssr/app_page_tsx_55b2e5ee._.js   |   512 [32m+[m
+ .../chunks/ssr/app_page_tsx_55b2e5ee._.js.map      |     6 [32m+[m
+ .../server/chunks/ssr/node_modules_2cd08413._.js   |  8319 [32m++++[m
+ .../chunks/ssr/node_modules_2cd08413._.js.map      |   119 [32m+[m
+ .../server/chunks/ssr/node_modules_8a331a76._.js   |  3256 [32m++[m
+ .../chunks/ssr/node_modules_8a331a76._.js.map      |    27 [32m+[m
+ .../chunks/ssr/node_modules_next_286d50a8._.js     |  4339 [32m+++[m
+ .../chunks/ssr/node_modules_next_286d50a8._.js.map |    34 [32m+[m
+ .../chunks/ssr/node_modules_next_478565b6._.js     |  3266 [32m++[m
+ .../chunks/ssr/node_modules_next_478565b6._.js.map |    26 [32m+[m
+ .../chunks/ssr/node_modules_next_74344a4f._.js     |  5837 [32m+++[m
+ .../chunks/ssr/node_modules_next_74344a4f._.js.map |    74 [32m+[m
+ .../ssr/node_modules_next_dist_0c11442c._.js       |  9316 [32m+++++[m
+ .../ssr/node_modules_next_dist_0c11442c._.js.map   |    51 [32m+[m
+ .../ssr/node_modules_next_dist_179b90d2._.js       |  9286 [32m+++++[m
+ .../ssr/node_modules_next_dist_179b90d2._.js.map   |    50 [32m+[m
+ .../ssr/node_modules_next_dist_2eb74c46._.js       |  5926 [32m+++[m
+ .../ssr/node_modules_next_dist_2eb74c46._.js.map   |    90 [32m+[m
+ .../ssr/node_modules_next_dist_3b4d20e1._.js       | 16542 [32m++++++++[m
+ .../ssr/node_modules_next_dist_3b4d20e1._.js.map   |   148 [32m+[m
+ .../ssr/node_modules_next_dist_868307e4._.js       | 16562 [32m++++++++[m
+ .../ssr/node_modules_next_dist_868307e4._.js.map   |   151 [32m+[m
+ ...dules_next_dist_client_components_9774470f._.js |   149 [32m+[m
+ ...s_next_dist_client_components_9774470f._.js.map |     8 [32m+[m
+ ...client_components_builtin_forbidden_45780354.js |    32 [32m+[m
+ ...nt_components_builtin_forbidden_45780354.js.map |     6 [32m+[m
+ ...ent_components_builtin_global-error_ece394eb.js |    24 [32m+[m
+ ...components_builtin_global-error_ece394eb.js.map |     8 [32m+[m
+ ...ent_components_builtin_unauthorized_15817684.js |    32 [32m+[m
+ ...components_builtin_unauthorized_15817684.js.map |     6 [32m+[m
+ .../chunks/ssr/node_modules_next_f71b9665._.js     |    59 [32m+[m
+ .../chu
