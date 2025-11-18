@@ -205,13 +205,13 @@ export default function BirthdayPage() {
             <p className="text-2xl font-bold text-purple-600 mb-4">Dear Vaishnavi❤️😍,</p>
             
             <div className="text-gray-800 space-y-4 leading-relaxed font-mono text-lg">
-              <p>Today is your special day, and I wanted to take a moment to tell you just how much you mean to me.</p>
+              <p>Today is your special day, and we wanted to take a moment to tell you just how much you mean to us.</p>
               
-              <p>From the first day we met, you've brought nothing but joy, laughter, and light into my life. Your kindness, your humor, and your incredible spirit make you one of a kind.</p>
+              <p>From the first day we met, you've brought nothing but joy, laughter, and light into  life. Your kindness, your humor, and your incredible spirit make you one of a kind.</p>
               
-              <p>I'm so grateful for all the memories we've shared - the adventures, the late-night talks, the silly moments, and everything in between. You've been there through thick and thin.</p>
+              <p>We are so grateful for all the memories we've shared - the adventures, the late-night studies, the silly moments, and everything in between. You've been there through thick and thin.</p>
               
-              <p>As you celebrate another year, I hope you know how truly special you are. You deserve all the happiness, success, and love that life has to offer. This year, I wish for you:</p>
+              <p>As you celebrate another year, we hope you know how truly special you are. You deserve all the happiness, success, and love that life has to offer. This year, we wish for you:</p>
               
               <div className="pl-6 space-y-2">
                 <p>✨ Adventures that take your breath away</p>
